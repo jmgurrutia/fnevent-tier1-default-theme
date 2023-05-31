@@ -65,10 +65,10 @@ For legal reasons
 
 We share personal data with companies, organizations, or individuals outside of FNTECH if we believe that access, use, preservation or disclosure of the information is reasonably necessary to:
 
-* * Meet any applicable law or respond to valid legal process, including from law enforcement or other government agencies.
-  * Enforce applicable Terms of Service, including investigation of potential violations.
-  * Detect, prevent, or otherwise address fraud, security or technical issues.
-  * Protect against harm to the rights, property or safety of FNTECH, our users or the public as required or permitted by law, including to help prevent the loss of life or serious injury of anyone.
+* Meet any applicable law or respond to valid legal process, including from law enforcement or other government agencies.
+* Enforce applicable Terms of Service, including investigation of potential violations.
+* Detect, prevent, or otherwise address fraud, security or technical issues.
+* Protect against harm to the rights, property or safety of FNTECH, our users or the public as required or permitted by law, including to help prevent the loss of life or serious injury of anyone.
 
 Right to Correct or Update Your Information
 
