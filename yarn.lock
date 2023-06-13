@@ -1949,10 +1949,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@openeventkit/event-site@1.0.18":
-  version "1.0.18"
-  resolved "https://registry.yarnpkg.com/@openeventkit/event-site/-/event-site-1.0.18.tgz#4e74b4a5e124695dab8452fc17061f9d71489961"
-  integrity sha512-Anwjfx4aucKhySeWMwM1w/ifEJWtmU/w9kWH3uB2CevOIR7ZpqtS2/LALpM6Rs/b8eJyOmk58EgMpToMruXPhg==
+"@openeventkit/event-site@1.0.28":
+  version "1.0.28"
+  resolved "https://registry.yarnpkg.com/@openeventkit/event-site/-/event-site-1.0.28.tgz#eb1e010cd30590c3dbd3b3bb86a703e7c5928943"
+  integrity sha512-ZrG9KO958QrV8Fopk3L0MYxLk3P9cDO0ie4imG8HZN+dRKyYGZ8nV/FznE3zAnS7Rlz423Bjlsy69Vnw1lZfkg==
   dependencies:
     "@mui/base" "^5.0.0-alpha.114"
     "@ncwidgets/file-relation" "^0.8.0"
@@ -1991,7 +1991,7 @@
     font-awesome "^4.7.0"
     formik "^2.2.9"
     fs-extra "^9.0.1"
-    full-schedule-widget "2.0.26"
+    full-schedule-widget "^2.0.28"
     gatsby "^5.8.1"
     gatsby-alias-imports "^1.0.6"
     gatsby-plugin-image "^3.8.0"
@@ -2024,7 +2024,7 @@
     netlify-cms-app "^2.15.72"
     netlify-cms-lib-widgets "^1.8.0"
     node-sass-utils "^1.1.3"
-    openstack-uicore-foundation "^4.0.95"
+    openstack-uicore-foundation "^4.1.29"
     path-browserify "^1.0.1"
     prop-types "^15.6.0"
     react "^18.2.0"
@@ -2066,7 +2066,7 @@
     stream-browserify "^3.0.0"
     stream-chat "^2.7.2"
     stream-chat-react "3.1.7"
-    summit-registration-lite "4.0.9"
+    summit-registration-lite "^4.0.14"
     superagent "8.0.9"
     sweetalert2 "^9.17.0"
     upcoming-events-widget "2.0.8"
@@ -7511,10 +7511,10 @@ fsevents@~2.3.2:
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
   integrity sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
 
-full-schedule-widget@2.0.26:
-  version "2.0.26"
-  resolved "https://registry.yarnpkg.com/full-schedule-widget/-/full-schedule-widget-2.0.26.tgz#98945287d2b6a7da59b7619cd6ce5f63c9f085bf"
-  integrity sha512-J8xLVUPfgaG4TNzR3HvjVWLfGBISDcI2DNge22kYOWMQ7OR4ByrNH7vJPPXhkzvanVRI6eqbauEN7je+pjXsAQ==
+full-schedule-widget@^2.0.28:
+  version "2.0.28"
+  resolved "https://registry.yarnpkg.com/full-schedule-widget/-/full-schedule-widget-2.0.28.tgz#2ba55892f2325f83b3bccf69c2bd406528f6479d"
+  integrity sha512-ydqqlHfhpDFQIbFLO6q3eWvY+CHFymAOlTIJ1O6CZ58EvLTcl9T31M9GvcbxbQIYkC+k90VGSJAZfNxxso+yNQ==
   dependencies:
     "@mui/base" "5.0.0-alpha.127"
     bootstrap "^5.1.3"
@@ -12096,10 +12096,10 @@ open@^8.4.0:
     is-docker "^2.1.1"
     is-wsl "^2.2.0"
 
-openstack-uicore-foundation@^4.0.95:
-  version "4.1.18"
-  resolved "https://registry.yarnpkg.com/openstack-uicore-foundation/-/openstack-uicore-foundation-4.1.18.tgz#3fa19f29c78a7ca3274623426ea65c51c64818c6"
-  integrity sha512-4q8aMB8lbWgAcYzJEvbhlQXFWeu/nv7iP85YoWWyehdaomOc04gbxPAHjdWiTxBS2iZ+k+dkUBtbTOuN0R2P/A==
+openstack-uicore-foundation@^4.1.29:
+  version "4.1.29"
+  resolved "https://registry.yarnpkg.com/openstack-uicore-foundation/-/openstack-uicore-foundation-4.1.29.tgz#7d2254cdc60df10024b48353034bb6a698652352"
+  integrity sha512-kVEVIXSnhQtSoYswpheMsjvYfh89UkHwUCyFbcei5k667neFX0xnqEIrK54zV+4CWB3tB+CVOx2H04cK/snTOw==
 
 opentracing@^0.14.7:
   version "0.14.7"
@@ -15925,10 +15925,10 @@ sudo-prompt@^8.2.0:
   resolved "https://registry.yarnpkg.com/sudo-prompt/-/sudo-prompt-8.2.5.tgz#cc5ef3769a134bb94b24a631cc09628d4d53603e"
   integrity sha512-rlBo3HU/1zAJUrkY6jNxDOC9eVYliG6nS4JA8u8KAshITd07tafMc/Br7xQwCSseXwJ2iCcHCE8SNWX3q8Z+kw==
 
-summit-registration-lite@4.0.9:
-  version "4.0.9"
-  resolved "https://registry.yarnpkg.com/summit-registration-lite/-/summit-registration-lite-4.0.9.tgz#4185ffe500b641a14839a4d271fe5c20320193dc"
-  integrity sha512-ZxYn9ZFZlSSgtQ2RGvZZdb6ZNjHdyIStZ49+sJD6VuqQugBrR8Q3edXgwTRAOf5Piky3KZ9mRka4B3Ro2OJ8vQ==
+summit-registration-lite@^4.0.14:
+  version "4.0.14"
+  resolved "https://registry.yarnpkg.com/summit-registration-lite/-/summit-registration-lite-4.0.14.tgz#30df0ca82de3f75ca4b34453a4279ad20ef0a2a0"
+  integrity sha512-Uj3E/z9SAlxSipNUTxd7HsDFV9Qqjj3xV2cM7f79t8jFFaINmH2y3m7WfM1fWvh8kneOM7p80iTR0L1fzhwUcg==
   dependencies:
     "@stripe/react-stripe-js" "^1.4.1"
     "@stripe/stripe-js" "^1.15.0"
