@@ -1902,6 +1902,43 @@
     prop-types "^15.8.1"
     react-is "^18.2.0"
 
+"@mux/mux-player-react@^1.14.1":
+  version "1.14.2"
+  resolved "https://registry.yarnpkg.com/@mux/mux-player-react/-/mux-player-react-1.14.2.tgz#f1924141afa0682ab642bb5cc67e456b6fc3fc6f"
+  integrity sha512-Q6TkKo+L52RxBWDalewXq9RlVXmvbMLEL3KlVUlH7vHYB0AcMfdI5VqAhqHdmNvj6S1vqg5T9cXtHgbyx6UiDg==
+  dependencies:
+    "@mux/mux-player" "1.14.2"
+    "@mux/playback-core" "0.20.1"
+    prop-types "^15.7.2"
+
+"@mux/mux-player@1.14.2":
+  version "1.14.2"
+  resolved "https://registry.yarnpkg.com/@mux/mux-player/-/mux-player-1.14.2.tgz#786088478a593623ef67a2d29e5e873c7ecd11ea"
+  integrity sha512-7K8DyFd+GIfeLql183RxY/ii+V5DOq4svsWlhgEUJ/6c4FKm530C2tXpKJ/FdynF3GApK48bvpaXLnj7+Iyt/w==
+  dependencies:
+    "@mux/mux-video" "0.16.4"
+    "@mux/playback-core" "0.20.1"
+    media-chrome "^1.4.2"
+
+"@mux/mux-video@0.16.4":
+  version "0.16.4"
+  resolved "https://registry.yarnpkg.com/@mux/mux-video/-/mux-video-0.16.4.tgz#497451b84d5acf4d5d452ef18df0857a7c2ff20e"
+  integrity sha512-vACXwmQWZxXZ0vb4a4FICZnns3tD/Jr16iD5mjfDwWtj8cxgav/ibeyDZICkrU7HSDhwZQcZYMf+TteHJQ86xg==
+  dependencies:
+    "@mux/playback-core" "0.20.1"
+    castable-video "0.5.2"
+    custom-media-element "0.2.0"
+    media-tracks ">=0.2.3"
+
+"@mux/playback-core@0.20.1":
+  version "0.20.1"
+  resolved "https://registry.yarnpkg.com/@mux/playback-core/-/playback-core-0.20.1.tgz#f868d20d90c83dd95aec0b0c05df59cd4402422f"
+  integrity sha512-UOw0cKY9o5/bAOUQjEYaS6QN9/fp5qQQWTQhI/oE4xU7C82Cb2PIe7IYAic0aWOaGsW/KUjW/YkwMbBQuonR5w==
+  dependencies:
+    hls.js "^1.4.10"
+    media-tracks "0.2.3"
+    mux-embed "^4.27.0"
+
 "@ncwidgets/file-relation@^0.8.0":
   version "0.8.0"
   resolved "https://registry.yarnpkg.com/@ncwidgets/file-relation/-/file-relation-0.8.0.tgz#39c9ab7169c4895a09eedb5291bb14f7a9857918"
@@ -1949,12 +1986,13 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@openeventkit/event-site@^1.0.44":
-  version "1.0.44"
-  resolved "https://registry.yarnpkg.com/@openeventkit/event-site/-/event-site-1.0.44.tgz#f82266c641545f60ee63f05adcb0956d428e1395"
-  integrity sha512-BSDtJqdADgj8/TGIQnkdLetUzGEQ8cE2pU2EYv4OKcdzwjJ98SNFrKuwqEHrZ0W8MGRzNv/eGGoLyP4w9UmQvw==
+"@openeventkit/event-site@^2.0.63":
+  version "2.0.63"
+  resolved "https://registry.yarnpkg.com/@openeventkit/event-site/-/event-site-2.0.63.tgz#d4a6ca6b7301cebfb31a0e1602c8bfeda1070d6a"
+  integrity sha512-D3K8S8KztfK4d7U0gZ1hxsUScAO9Y8Uy0UvRhxFdbPZS26ltEWh3MAhSFjWXTvFWBAHpSwGbHFkbsaOd/shqqA==
   dependencies:
     "@mui/base" "^5.0.0-alpha.114"
+    "@mux/mux-player-react" "^1.14.1"
     "@ncwidgets/file-relation" "^0.8.0"
     "@ncwidgets/id" "^0.8.1"
     "@react-pdf/renderer" "^3.1.12"
@@ -1971,7 +2009,7 @@
     "@types/react" "^16.9.42"
     "@vimeo/player" "^2.16.3"
     ably "^1.2.34"
-    attendee-to-attendee-widget "2.0.23"
+    attendee-to-attendee-widget "3.0.6"
     awesome-bootstrap-checkbox "^1.0.1"
     axios "^0.19.2"
     babel-preset-gatsby "^3.9.0"
@@ -1987,12 +2025,12 @@
     disqus-react "1.0.10"
     dotenv "^8.2.0"
     dropzone "^5.7.2"
-    event-feedback-widget "^1.0.6"
+    event-feedback-widget "^2.0.1"
     final-form "4.20.7"
     font-awesome "^4.7.0"
     formik "^2.2.9"
     fs-extra "^9.0.1"
-    full-schedule-widget "^2.0.35"
+    full-schedule-widget "3.0.2"
     gatsby "^5.8.1"
     gatsby-alias-imports "^1.0.6"
     gatsby-plugin-image "^3.8.0"
@@ -2015,8 +2053,8 @@
     immutability-helper "2.9.1"
     immutable "^3.7.6"
     jsdom "^16.2.2"
-    lite-schedule-widget "^2.0.1"
-    live-event-widget "^3.0.0"
+    lite-schedule-widget "3.0.2"
+    live-event-widget "4.0.1"
     lodash "^4.17.19"
     lz-string "^1.4.4"
     markdown-it "^12.0.0"
@@ -2025,7 +2063,7 @@
     netlify-cms-app "^2.15.72"
     netlify-cms-lib-widgets "^1.8.0"
     node-sass-utils "^1.1.3"
-    openstack-uicore-foundation "^4.1.39"
+    openstack-uicore-foundation "4.1.42"
     path-browserify "^1.0.1"
     prop-types "^15.6.0"
     react "^18.2.0"
@@ -2057,20 +2095,20 @@
     redux-thunk "^2.4.1"
     sanitize-html "^2.7.0"
     sass "^1.49.9"
-    schedule-filter-widget "^2.0.6"
+    schedule-filter-widget "3.0.1"
     simple-chat-widget "^1.0.31"
     simple-oauth2 "^4.1.0"
     slick-carousel "^1.8.1"
     smoothscroll-polyfill "^0.4.4"
     socket.io-client "^4.5.2"
-    speakers-widget "3.0.2"
+    speakers-widget "4.0.0"
     stream-browserify "^3.0.0"
     stream-chat "^2.7.2"
     stream-chat-react "3.1.7"
-    summit-registration-lite "^4.0.17"
+    summit-registration-lite "5.0.8"
     superagent "8.0.9"
     sweetalert2 "^9.17.0"
-    upcoming-events-widget "2.0.8"
+    upcoming-events-widget "3.0.4"
     urijs "^1.19.2"
     use-fit-text "^2.4.0"
     uuid "^7.0.0"
@@ -4312,17 +4350,16 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-attendee-to-attendee-widget@2.0.23:
-  version "2.0.23"
-  resolved "https://registry.yarnpkg.com/attendee-to-attendee-widget/-/attendee-to-attendee-widget-2.0.23.tgz#1cd3307e21ca498b811551e4bb8ad60a775d8dbe"
-  integrity sha512-Q/vgWgNNmRpsuHMPzYKgpEpF1B3flrW70QMZzFMRa2fajFe5QDcgbUsccTOfJhcSdoq7MoJUz3EqVV0F5S+2ng==
+attendee-to-attendee-widget@3.0.6:
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/attendee-to-attendee-widget/-/attendee-to-attendee-widget-3.0.6.tgz#835267851077b8a7e6c8099234dd582670d70fab"
+  integrity sha512-aAE2Z5ZKaioJV0ENAlb7WrZoAiqNtyk5lLRyOG90ETKTH1Gu8dObASvjKaDtJw/Nc+CPQLEsaVmCgYNKlsspNQ==
   dependencies:
     "@babel/helper-string-parser" "^7.19.4"
     "@supabase/supabase-js" "^1.35.6"
     bulma "^0.9.2"
     font-awesome "^4.7.0"
     formik "^2.2.6"
-    html-entities "^2.3.3"
     lodash.debounce "^4.0.8"
     luxon "^1.26.0"
     public-ip "^4.0.3"
@@ -4993,6 +5030,11 @@ capital-case@^1.0.4:
     no-case "^3.0.4"
     tslib "^2.0.3"
     upper-case-first "^2.0.2"
+
+castable-video@0.5.2:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/castable-video/-/castable-video-0.5.2.tgz#cb0d3ec7336cbf163370c3d4e63bd14219c097b3"
+  integrity sha512-eP19NY8AF9G+Xj87R447GMkWuUc0W3DSNx5qOypH/+mr2aaHRONaIK5H4bxMgpXZslZ2vNNvCuVuKi3VdCUGEA==
 
 ccount@^1.0.0, ccount@^1.0.3:
   version "1.1.0"
@@ -5887,6 +5929,11 @@ custom-event@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/custom-event/-/custom-event-1.0.1.tgz#5d02a46850adf1b4a317946a3928fccb5bfd0425"
   integrity sha512-GAj5FOq0Hd+RsCGVJxZuKaIDXDf3h6GQoNEjFgbLLI/trgtavwUbSnZ5pVfg27DVCaWjIohryS0JFwIJyT2cMg==
+
+custom-media-element@0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/custom-media-element/-/custom-media-element-0.2.0.tgz#bc25ee504d126c8fca9bfde81c8abc26f4d46e99"
+  integrity sha512-N++UzR1COFip4DrtZkS99VDCcQvVCJmbqI7qaxZtHWKdAv/RUYIOnmJbP/HHk2un0PjvtFNKHfNLiFsd9BmnMQ==
 
 cyclist@^1.0.1:
   version "1.0.1"
@@ -7082,10 +7129,10 @@ event-emitter@^0.3.5:
     d "1"
     es5-ext "~0.10.14"
 
-event-feedback-widget@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/event-feedback-widget/-/event-feedback-widget-1.0.6.tgz#f60f02f2b783f891d71a6a0600a18248e2c5c64e"
-  integrity sha512-abBkFwgdWJoQJgpaYFA9Qhi+pjt+zSYsi1F5+LYD6WeHnP+7Jp0DzcZrrmYIN/CWKOJNj4vs9uVUxayO9s/xTw==
+event-feedback-widget@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/event-feedback-widget/-/event-feedback-widget-2.0.1.tgz#0c00740d290f8a6225370b3867187728271dd8ef"
+  integrity sha512-INjptM0sxAgtn8hZYC0MoN0HZzcUEG99CVm8NUkmkLxb8oi7IrmZ0pVn/UXoeHPPpGC1KnNlEK++ls4USUzIqg==
   dependencies:
     svg-url-loader "^7.1.1"
 
@@ -7694,10 +7741,10 @@ fsevents@~2.3.2:
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
   integrity sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
 
-full-schedule-widget@^2.0.35:
-  version "2.0.35"
-  resolved "https://registry.yarnpkg.com/full-schedule-widget/-/full-schedule-widget-2.0.35.tgz#3e7475d467ca76e77a995508e638fa80d5609046"
-  integrity sha512-NLQYjcV5s8F+64tvWW+dO1DN6TAWZf2ar1PwJJ1d3eOOv8WfJmJIHktTTN3st4NFuCXxdV/PVlqG3cYjnR0S6Q==
+full-schedule-widget@3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/full-schedule-widget/-/full-schedule-widget-3.0.2.tgz#f0308590da418fc162553562df2f3f32a77ff12c"
+  integrity sha512-x2/aSYl4kTgDH6ygjSFTEgsdDIiZM4dYsOuGud586kaboLGeCvo3Uag/Blpey+XZ+hPswbOI/tbg9F75Q4Y7Wg==
   dependencies:
     "@mui/base" "5.0.0-alpha.127"
     "@react-pdf/renderer" "^3.1.11"
@@ -9256,6 +9303,11 @@ history@^4.10.1, history@^4.7.2, history@^4.9.0:
     tiny-warning "^1.0.0"
     value-equal "^1.0.1"
 
+hls.js@^1.4.10:
+  version "1.4.12"
+  resolved "https://registry.yarnpkg.com/hls.js/-/hls.js-1.4.12.tgz#2022daa29d10c662387d80a5297f8330f8ef5ee2"
+  integrity sha512-1RBpx2VihibzE3WE9kGoVCtrhhDWTzydzElk/kyRbEOLnb1WIE+3ZabM/L8BqKFTCL3pUy4QzhXgD1Q6Igr1JA==
+
 hoist-non-react-statics@^3.1.0, hoist-non-react-statics@^3.3.0, hoist-non-react-statics@^3.3.1, hoist-non-react-statics@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
@@ -10546,18 +10598,18 @@ linkifyjs@^2.1.9:
   resolved "https://registry.yarnpkg.com/linkifyjs/-/linkifyjs-2.1.9.tgz#af06e45a2866ff06c4766582590d098a4d584702"
   integrity sha512-74ivurkK6WHvHFozVaGtQWV38FzBwSTGNmJolEgFp7QgR2bl6ArUWlvT4GcHKbPe1z3nWYi+VUdDZk16zDOVug==
 
-lite-schedule-widget@^2.0.1:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/lite-schedule-widget/-/lite-schedule-widget-2.0.2.tgz#408cf95a2e6328318dd2ecebbd2a54929d92576b"
-  integrity sha512-nhyO1a/cKiXknYz3k4zjqZLvk4tW8b7G/eWOLlz9ocY85xN/ZTWOorDS6eYSWD/boxG+uNIYMCAIDNLvNrV9Eg==
+lite-schedule-widget@3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/lite-schedule-widget/-/lite-schedule-widget-3.0.2.tgz#9a015815589c88a1b8ed998fc826bbca10532db0"
+  integrity sha512-ZGuoPBEpeZFqZ1VoHNfC+PKxbYPR5o7t8CeK0FOw3locJMQ2YzigazInaOwgQoy2b95A8+h7J7uWFbCGscGorg==
   dependencies:
     pure-react-carousel "^1.27.4"
     use-fit-text "^2.4.0"
 
-live-event-widget@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/live-event-widget/-/live-event-widget-3.0.0.tgz#905d841571dd7ac8d93a31e5a0f6c1894a1d7d34"
-  integrity sha512-c4vRQxiaF4GdP10xDDkiM4skPn3cQJTrIQptjzmGgymgOf1rtUcAiye6cqJg0BfMabmntbuFHPCgHyAB+Q2djw==
+live-event-widget@4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/live-event-widget/-/live-event-widget-4.0.1.tgz#ea654d287446ae54d839dec4d3f7d8f157ec062c"
+  integrity sha512-Fm0Ovi+1NtSfkeH10sG3QJYOtK+PqOtf4wKUT5PX1CFBa28/LXv1JkVUuUjG4cVdBZLneoBQs20dGoKAhWr+xQ==
   dependencies:
     svg-url-loader "^7.1.1"
 
@@ -11171,10 +11223,20 @@ meant@^1.0.3:
   resolved "https://registry.yarnpkg.com/meant/-/meant-1.0.3.tgz#67769af9de1d158773e928ae82c456114903554c"
   integrity sha512-88ZRGcNxAq4EH38cQ4D85PM57pikCwS8Z99EWHODxN7KBY+UuPiqzRTtZzS8KTXO/ywSWbdjjJST2Hly/EQxLw==
 
+media-chrome@^1.4.2:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/media-chrome/-/media-chrome-1.4.2.tgz#9f1b9363f7ba7f9b12b1e75ba77223e35c378720"
+  integrity sha512-WfyNpCvkqKyC0ObIe6rUMxMOYmiyQJVkJ4koLyl87120LbN/X0UMKpoIqkw2o5m9ABWTgzq8/UKQuObnLHHD0w==
+
 media-engine@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/media-engine/-/media-engine-1.0.3.tgz#be3188f6cd243ea2a40804a35de5a5b032f58dad"
   integrity sha512-aa5tG6sDoK+k70B9iEX1NeyfT8ObCKhNDs6lJVpwF6r8vhUfuKMslIcirq6HIUYuuUYLefcEQOn9bSBOvawtwg==
+
+media-tracks@0.2.3, media-tracks@>=0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/media-tracks/-/media-tracks-0.2.3.tgz#ba9a23c45e1ee1be2acdd580f985d25b9036fff9"
+  integrity sha512-h5HRl1tIyeV+aF59FAmHmxChmdM/Ewf/twpxZkRme1ny46owD24uTA0BmRuPoO+uzvE0lx9ZIkZj1TbXi2VCng==
 
 media-typer@0.3.0:
   version "0.3.0"
@@ -11539,6 +11601,11 @@ mute-stream@0.0.8, mute-stream@~0.0.4:
   version "0.0.8"
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.8.tgz#1630c42b2251ff81e2a283de96a5497ea92e5e0d"
   integrity sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==
+
+mux-embed@^4.27.0:
+  version "4.28.0"
+  resolved "https://registry.yarnpkg.com/mux-embed/-/mux-embed-4.28.0.tgz#7c4087fe6e1ef9bb481bfc8f048b2401ca3e4dc2"
+  integrity sha512-8S/neKvfizeJFaSSCy8XJZaSqjqXJES/VRuKJ8jhXfNY2KPwEFlggQO9CuoK+vpxhWFZ8jVJJ3s0W98Ig+puBA==
 
 mux.js@6.0.1:
   version "6.0.1"
@@ -12314,10 +12381,10 @@ open@^8.4.0:
     is-docker "^2.1.1"
     is-wsl "^2.2.0"
 
-openstack-uicore-foundation@^4.1.39:
-  version "4.1.39"
-  resolved "https://registry.yarnpkg.com/openstack-uicore-foundation/-/openstack-uicore-foundation-4.1.39.tgz#3459f4a6b8bf5513a4eda1d0341c0a24b05635cc"
-  integrity sha512-sf0TQ1WLcxUIdnn/+U3yVfsOmvknIQbbSlcUsZC4T5xkrBqCAYopdIK6IfrYls3aSQ+ebUo1TCC8CVyvN0HRpw==
+openstack-uicore-foundation@4.1.42:
+  version "4.1.42"
+  resolved "https://registry.yarnpkg.com/openstack-uicore-foundation/-/openstack-uicore-foundation-4.1.42.tgz#c0ecd0f0f06905e62504685bcdfdafbbf2a7f621"
+  integrity sha512-rLbHmwFXcjllD19HPDAddw29gOvaNDlFvHxJG+Dxtx9ixfeZceWaLShK2uoAR+/mQf4W2hH292JzF1Yid5R7xw==
 
 opentracing@^0.14.7:
   version "0.14.7"
@@ -15126,11 +15193,12 @@ saxes@^5.0.1:
   dependencies:
     xmlchars "^2.2.0"
 
-schedule-filter-widget@^2.0.6:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/schedule-filter-widget/-/schedule-filter-widget-2.0.6.tgz#36b5b6015877e4b8bf66ba55d5e77e5df142fa5b"
-  integrity sha512-Ynff8kXcxEFzZdwPCtLOHFLtf529gT4j5MO22SP1MEvCyl9CVILdyIgndGv3y5tnXPnEMDPSVVvi8HGFXwW9+g==
+schedule-filter-widget@3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/schedule-filter-widget/-/schedule-filter-widget-3.0.1.tgz#6dd5dea2eb6366049c70d636dad7fe716f06ea1f"
+  integrity sha512-Pg3n8Mu/IUHQjZHrOEsDVUrLGwe0vmk9xaHxYs2LvfBdJ8z1KbvQ/Fhz27owzlzDc1D10HMJ6Oac0tsLsrYc1g==
   dependencies:
+    crypto-js "^4.1.1"
     react-spring "^9.1.2"
     react-use "^17.2.4"
     resize-observer-polyfill "^1.5.1"
@@ -15732,10 +15800,10 @@ space-separated-tokens@^1.0.0, space-separated-tokens@^1.1.0:
   resolved "https://registry.yarnpkg.com/space-separated-tokens/-/space-separated-tokens-1.1.5.tgz#85f32c3d10d9682007e917414ddc5c26d1aa6899"
   integrity sha512-q/JSVd1Lptzhf5bkYm4ob4iWPjx0KiRe3sRFBNrVqbJkFaBm5vbbowy1mymoPNLRa52+oadOhJ+K49wsSeSjTA==
 
-speakers-widget@3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/speakers-widget/-/speakers-widget-3.0.2.tgz#64ba8aa163aa2f35c226cc57f6c8031acf62bef0"
-  integrity sha512-Sg8S7RJJGbx/s6FigedJHhJupSUk21cf4Cgr6laA0g7dmigqmmvd51MxxgI4oosS6t2HuSy6wzmGPZ2GVSxk/A==
+speakers-widget@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/speakers-widget/-/speakers-widget-4.0.0.tgz#50437cdfd1c96078b69143f365cbb2c833bf074f"
+  integrity sha512-HappNt725Lu4UzkpteKj0ikrj1pHcCEgNJ6lOJD05oOoKGsCxKYPNWw6wnCLDOqJ/YRHJZlkF/iz1mYcpDQOaw==
 
 split-on-first@^1.0.0:
   version "1.1.0"
@@ -16171,11 +16239,12 @@ sudo-prompt@^8.2.0:
   resolved "https://registry.yarnpkg.com/sudo-prompt/-/sudo-prompt-8.2.5.tgz#cc5ef3769a134bb94b24a631cc09628d4d53603e"
   integrity sha512-rlBo3HU/1zAJUrkY6jNxDOC9eVYliG6nS4JA8u8KAshITd07tafMc/Br7xQwCSseXwJ2iCcHCE8SNWX3q8Z+kw==
 
-summit-registration-lite@^4.0.17:
-  version "4.0.17"
-  resolved "https://registry.yarnpkg.com/summit-registration-lite/-/summit-registration-lite-4.0.17.tgz#0c86508c2a0cb2834094850cd22c938388a094dd"
-  integrity sha512-ir1Nnqe+cnB5/Z10E6RVyTFvMLi2wY778+Wl9tBoyGkqNsuaDx4yxxv54U4GL7M0n/1awYoOnAuTP6ImgGling==
+summit-registration-lite@5.0.8:
+  version "5.0.8"
+  resolved "https://registry.yarnpkg.com/summit-registration-lite/-/summit-registration-lite-5.0.8.tgz#d36ad05ab91d32d388c7328ec430191ca6ea9ee9"
+  integrity sha512-WfpLBe7vEfKJwGJbVBovObXujlQ0U7nMXmg7NOgX7X5jnlI8q7TJJi//A3sYrmVHDoutN7lezdNzDFLveX+k+w==
   dependencies:
+    "@react-pdf/renderer" "^3.1.12"
     "@stripe/react-stripe-js" "^1.4.1"
     "@stripe/stripe-js" "^1.15.0"
     i18n-react "^0.6.4"
@@ -17033,10 +17102,10 @@ unpipe@1.0.0, unpipe@~1.0.0:
   resolved "https://registry.yarnpkg.com/unpipe/-/unpipe-1.0.0.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"
   integrity sha512-pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRksA3hztKQ==
 
-upcoming-events-widget@2.0.8:
-  version "2.0.8"
-  resolved "https://registry.yarnpkg.com/upcoming-events-widget/-/upcoming-events-widget-2.0.8.tgz#46aa4e29afd8c9b61e28bf0449fee16f3e63015f"
-  integrity sha512-FrTbU8113dM5AUDPrUjyPw9ZRKgglYioWhTToftIOSMHxMfgQkg1WIKBwRs6ptJVOct5FibQ/VIgisGn7jBoZw==
+upcoming-events-widget@3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/upcoming-events-widget/-/upcoming-events-widget-3.0.4.tgz#ec70f29dcc88fbb1114d66fd3c09e425061a18ce"
+  integrity sha512-e9yi+gcV4LYKrTZb6Cv5OLkf7JzkLFgX/yTjqJoh4jdY0tlXHc1H7/LbJkiD/87MwpyRM/OKUD1fNKsBpIxOww==
   dependencies:
     pure-react-carousel "^1.30.1"
 
