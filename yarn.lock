@@ -1986,10 +1986,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@openeventkit/event-site@2.0.78":
-  version "2.0.78"
-  resolved "https://registry.yarnpkg.com/@openeventkit/event-site/-/event-site-2.0.78.tgz#db00e1fde93c74eed3a5f0099b2f874623a3558b"
-  integrity sha512-fwZyaNLzsWLR/b0Fp4kLLuK/RWex48MffysTTupxBB5dtpM7ZAXrNoLbFjMkrr4l4RgRwCPlUVSBHxuX9uE/ew==
+"@openeventkit/event-site@2.0.83":
+  version "2.0.83"
+  resolved "https://registry.yarnpkg.com/@openeventkit/event-site/-/event-site-2.0.83.tgz#c87f4a87b8b118cc5503be44d26fc681e549a58b"
+  integrity sha512-CXO3mFM0Ez4VnqzuUrL0XG2spgd2abcrJ8WVZwDkZeWUuU69oCe6Rt/uRh0puv6oL6g+omkYu5tUdywNzNioGw==
   dependencies:
     "@mui/base" "^5.0.0-alpha.114"
     "@mux/mux-player-react" "^1.14.1"
@@ -2065,7 +2065,7 @@
     netlify-cms-app "^2.15.72"
     netlify-cms-lib-widgets "^1.8.0"
     node-sass-utils "^1.1.3"
-    openstack-uicore-foundation "4.1.57"
+    openstack-uicore-foundation "4.1.63"
     path-browserify "^1.0.1"
     prop-types "^15.6.0"
     react "^18.2.0"
@@ -2107,7 +2107,7 @@
     stream-browserify "^3.0.0"
     stream-chat "^2.7.2"
     stream-chat-react "3.1.7"
-    summit-registration-lite "5.0.15"
+    summit-registration-lite "5.0.16"
     superagent "8.0.9"
     sweetalert2 "^9.17.0"
     upcoming-events-widget "3.0.5"
@@ -12458,10 +12458,10 @@ open@^8.4.0:
     is-docker "^2.1.1"
     is-wsl "^2.2.0"
 
-openstack-uicore-foundation@4.1.57:
-  version "4.1.57"
-  resolved "https://registry.yarnpkg.com/openstack-uicore-foundation/-/openstack-uicore-foundation-4.1.57.tgz#8d80c8b29c2566690fc44cc5db3ff8f76f1b6f20"
-  integrity sha512-5YNPaXl+JIhFlHLOpGN+XPBjW2jfLdsv9VQfLdcqnL7rn7FJl6IoAP75fU917Ji5FNq4qxKGi1ye0YfYAz8ksQ==
+openstack-uicore-foundation@4.1.63:
+  version "4.1.63"
+  resolved "https://registry.yarnpkg.com/openstack-uicore-foundation/-/openstack-uicore-foundation-4.1.63.tgz#d58adcc0b3c7aafa48aae9aecdd0e8fc5294558e"
+  integrity sha512-tAIrUo80H1eHMfre3IRODPXiHxOQ2hU8csaGSSmq9yxjXH+JlQdseP2Q2cbcWL348m+FYHR+1ysNl/IxNaR8pA==
 
 opentracing@^0.14.7:
   version "0.14.7"
@@ -16350,10 +16350,10 @@ sudo-prompt@^8.2.0:
   resolved "https://registry.yarnpkg.com/sudo-prompt/-/sudo-prompt-8.2.5.tgz#cc5ef3769a134bb94b24a631cc09628d4d53603e"
   integrity sha512-rlBo3HU/1zAJUrkY6jNxDOC9eVYliG6nS4JA8u8KAshITd07tafMc/Br7xQwCSseXwJ2iCcHCE8SNWX3q8Z+kw==
 
-summit-registration-lite@5.0.15:
-  version "5.0.15"
-  resolved "https://registry.yarnpkg.com/summit-registration-lite/-/summit-registration-lite-5.0.15.tgz#0f7e40781cd2d826726e5684aafa7b55f365204e"
-  integrity sha512-31zFrOVQRs0+jFjw0J+duJa8GH+eaUgDiqTj7c/YE6zM8o5nonjbZo92XJIe/P1bZI8uIvrvdLtUn2Nmk+zIew==
+summit-registration-lite@5.0.16:
+  version "5.0.16"
+  resolved "https://registry.yarnpkg.com/summit-registration-lite/-/summit-registration-lite-5.0.16.tgz#5881692939182d76dadbd3133027379df3bc8138"
+  integrity sha512-SN7gaD51+tYmodRxwul+Ak7ObHY2MM/w5EpsMhtvTBXS9t+mA70yFfpGJdT3yBbTQj6TjbLwf8A/gngZn/Aprw==
   dependencies:
     "@react-pdf/renderer" "^3.1.12"
     "@stripe/react-stripe-js" "^1.4.1"
