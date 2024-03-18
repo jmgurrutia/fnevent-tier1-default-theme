@@ -1,8 +1,8 @@
 {
   "hero": {
-    "title": "TIER 1 - EVENT NAME HERE",
+    "title": "JUANMI'S",
     "date": "Date Information",
-    "dateLayout": true,
+    "dateLayout": false,
     "time": "Timezone",
     "buttons": {
       "registerButton": {
@@ -11,7 +11,7 @@
       },
       "loginButton": {
         "text": "Log In",
-        "display": true
+        "display": false
       }
     },
     "images": [
